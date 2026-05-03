@@ -182,6 +182,13 @@ body {
   color: var(--brand-maroon);
 }
 
+#team .row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
 /* ── Footer ─────────────────────────────────────────── */
 footer {
   background: var(--brand-dark);
